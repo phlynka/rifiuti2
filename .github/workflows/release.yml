@@ -85,7 +85,7 @@ jobs:
     runs-on: ubuntu-22.04
     permissions:
       contents: write
-    environment: release
+    environment: publish
     steps:
       - name: Get source artifacts
         uses: actions/download-artifact@v3
